@@ -2,7 +2,9 @@ class CfgPatches
 {
 	class SchanaModNoVehicleDamageExpansion
 	{
-		requiredAddons[] = {};
+		requiredAddons[] = {
+			"DayZExpansion_Scripts"
+		};
 	};
 };
 
